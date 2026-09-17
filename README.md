@@ -1,123 +1,73 @@
-Atividade — HTML Avançado
-
-
-
-Usar todo o conhecimento adquirido nas aulas anteriores (tags básicas, meta tags, tabelas e formulários) e adicionar as novas tags vistas na aula de hoje, elevando o nível do seu projeto.
-
-
-
-O que deve conter:
-
-
-
-Tags semânticas organizando toda a estrutura das páginas
-
-
-
-<header>, <nav>, <main>, <section>, <article>, <aside>, <footer>
-
-Multimídia
-
-
-
-Um <audio> com controles
-
-Um <video> local (não pode ser só link do YouTube) com controls
-
-Uma imagem usando <figure> e <figcaption>
-
-Formulário avançado com pelo menos:
-
-
-
-type="date", type="file", type="color" ou type="range"
-
-Campos com required e placeholder
-
-Um <datalist> com sugestões
-
-Elemento interativo
-
-
-
-<details> e <summary>
-
-
-
-Marcação avançada de texto:
-
-
-
-<abbr>, <mark>, <blockquote>, <cite>, <del>, <ins>, <progress> ou <meter>
-
-Regras do projeto:
-
-
-
-Mais de 10 páginas .html
-
-Navegação fluida entre todas as páginas (menu presente em todas)
-
-Projeto organizado em pastas (html/, img/, audio/, video/)
-
-Padrão nos nomes dos arquivos
-
-README explicando o projeto
-
-Sem CSS e sem JavaScript — foco 100% em HTML
-
-
-
-Sugestões:
-
-
-
-Sites de fã / portfólio temático
-
-
-
-Site sobre um jogo favorito (Valorant, FIFA, Minecraft...)
-Site sobre um artista ou banda
-Site sobre um filme ou série
-Site sobre um time de futebol
-Site sobre um personagem de anime/HQ
-
-
-Sites informativos
-
-
-
-Site sobre uma profissão (programador, médico, chef...)
-Site sobre um país ou cidade
-Site sobre um animal ou espécie
-Site sobre um esporte (regras, história, atletas)
-Site sobre um evento histórico
-
-
-Sites funcionais (formulários)
-
-
-
-Site de cadastro de academia (form com date, radio, checkbox, select)
-Site de inscrição em curso ou evento
-Cardápio de restaurante com formulário de pedido
-Ficha de personagem de RPG
-Formulário de contato de empresa fictícia
-
-
-
-
-Sites criativos
-
-
-
-Site de receitas com tabela de ingredientes e vídeo
-Site de portfólio de fotografia (figure + figcaption)
-Site de podcast com player de audio
-Site de notícias com article e aside
-Enciclopédia temática (ex: Pokemon, Marvel, Star Wars)
-
-
-
-
-O aluno deverá enviar todo o projeto criando um repositório no GitHub e enviar o link.
+# 🐉 Monster Hunter - Site Temático
+
+## 📖 Sobre o projeto
+
+Este projeto foi desenvolvido como uma atividade de HTML Avançado, utilizando como tema a franquia Monster Hunter.
+
+A ideia foi criar um site temático sobre o universo do jogo, apresentando informações sobre monstros, armas, armaduras, caçadores, companheiros, regiões e jogos da franquia.
+
+Além das páginas informativas, o projeto também possui uma página com uma gameplay própria, utilizando um vídeo armazenado localmente no projeto.
+
+## 🎯 Objetivo
+
+O principal objetivo do projeto é colocar em prática os conhecimentos adquiridos nas aulas de HTML, utilizando diferentes elementos para criar um site com várias páginas e navegação entre elas.
+
+O projeto foi desenvolvido sem CSS e sem JavaScript, tendo o HTML como foco principal.
+
+## 📄 Páginas do projeto
+
+O site possui as seguintes páginas:
+
+- Início
+- História
+- Monstros
+- Armas
+- Armaduras
+- Caçadores
+- Companheiros
+- Regiões
+- Jogos
+- Guilda
+- Galeria
+- Gameplay
+- Contato
+
+## 🛠️ Tecnologias utilizadas
+
+- HTML5
+- Tags semânticas
+- Meta tags
+- Tabelas
+- Formulários
+- Áudio
+- Vídeo local
+- Imagens
+- Links entre páginas
+
+Não foram utilizados CSS ou JavaScript.
+
+## 🏗️ Estrutura do projeto
+
+```text
+monster-hunter/
+│
+├── README.md
+│
+├── html/
+│   ├── index.html
+│   ├── historia.html
+│   ├── monstros.html
+│   ├── armas.html
+│   ├── armaduras.html
+│   ├── cacadores.html
+│   ├── companheiros.html
+│   ├── regioes.html
+│   ├── jogos.html
+│   ├── guilda.html
+│   └── gameplay.html
+│
+├── img/
+│
+├── audio/
+│
+└── video/
